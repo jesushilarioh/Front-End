@@ -1,0 +1,23 @@
+@media (min-width:768px){
+
+} /* end @media (min-width:468px) */
+
+.container_3 {
+    display: flex;
+    /*
+        flex-wrap: no-wrap; <-- default
+        flex-wrap: wrap-reverse;
+    */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.container_3 div {
+    border: 1px #CCC solid;
+    padding: 10px;
+}
+
+.container_3_box {
+    flex-basis: 12%;
+}
